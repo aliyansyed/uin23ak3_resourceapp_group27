@@ -1,0 +1,57 @@
+body{
+    background-color: #E1E5EE;
+    font-family: "Monsterrat", sans-serif;
+
+    
+}
+
+nav{
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    border-collapse: collapse;
+    display:flex;
+    border-collapse: collapse;
+    flex-wrap: nowrap;
+
+
+}
+
+
+.links{
+    background-color: #2A324B;
+  /*  border: 10px solid #ffffff;*/
+    display: inline;
+   text-decoration: none;
+   padding: 10px 20px;
+    margin-left: 15px;
+    height: auto;
+    color: #E1E5EE;
+}
+
+a.highlighted{
+    background-color: #fff;
+    color: #2A324B;
+}
+
+
+#information{
+    
+   /* width: 797px;*/
+    height: 300px;
+    background: #fff;
+    margin-top: -5px;
+    top: 185px;
+    left: 400px;
+position: absolute;
+margin-top: -5px;
+
+}
+
+h2{
+    color: #2A324B;
+}
+
+a, ul, li{
+    color: #58699D;
+}
