@@ -20,6 +20,7 @@ nav{
     background-color: #2A324B;
     text-decoration: none;
     padding: 10px 20px;
+    margin: 0 10px; /* Legger til mellomrom mellom lenkene */
     color: #E1E5EE;
 }
 
@@ -32,7 +33,7 @@ a.highlighted{
     width: 80%;
     height: 300px;
     background: #fff;
-    margin-top: 20px;
+    margin: 20px 0; /* Reduserer toppmargen for å bringe teksten nærmere navigasjonsbaren */
 }
 
 h2{
@@ -51,7 +52,7 @@ a, ul, li{
     }
 
     .links {
-        margin: 10px 0;
+        margin: 10px 5px; /* Justerer mellomrommet for mindre skjermer */
     }
 
     #information {
@@ -67,7 +68,7 @@ a, ul, li{
     }
 
     .links {
-        margin: 10px 0;
+        margin: 10px 5px; /* Justerer mellomrommet for mindre skjermer */
     }
 
     #information {
@@ -83,7 +84,7 @@ a, ul, li{
     }
 
     .links {
-        margin: 10px 0;
+        margin: 10px 5px; /* Justerer mellomrommet for mindre skjermer */
     }
 
     #information {
