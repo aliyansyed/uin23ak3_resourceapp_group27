@@ -6,6 +6,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center; /* Sentrerer innholdet vertikalt */
+    height: 100vh; /* Setter høyden til hele visningsområdet */
 }
 
 nav{
@@ -14,7 +16,6 @@ nav{
     width: 100%;
     padding: 20px 0;
     box-sizing: border-box;
-    margin-top: 50px; /* Legger til toppmarg på nav */
 }
 
 .links{
@@ -34,7 +35,7 @@ a.highlighted{
     width: 80%;
     height: 300px;
     background: #fff;
-    margin: 1px 0; /* Reduserer toppmargen for å bringe teksten nærmere navigasjonsbaren */
+    margin: -15px 0; /* Redusert toppmargen for å bringe teksten nærmere navigasjonsbaren */
 }
 
 h2{
@@ -50,7 +51,6 @@ a, ul, li{
     nav {
         flex-direction: row;
         flex-wrap: wrap;
-        margin-top: 20px; /* Justerer toppmargen for mindre skjermer */
     }
 
     .links {
@@ -59,6 +59,7 @@ a, ul, li{
 
     #information {
         width: 90%;
+        margin: -15px 0; /* Justerer toppmargen for mindre skjermer */
     }
 }
 
@@ -67,7 +68,6 @@ a, ul, li{
     nav {
         flex-direction: row;
         flex-wrap: wrap;
-        margin-top: 20px; /* Justerer toppmargen for mindre skjermer */
     }
 
     .links {
@@ -76,6 +76,7 @@ a, ul, li{
 
     #information {
         width: 90%;
+        margin: -15px 0; /* Justerer toppmargen for mindre skjermer */
     }
 }
 
@@ -84,7 +85,6 @@ a, ul, li{
     nav {
         flex-direction: row;
         flex-wrap: wrap;
-        margin-top: 20px; /* Justerer toppmargen for mindre skjermer */
     }
 
     .links {
@@ -93,5 +93,6 @@ a, ul, li{
 
     #information {
         width: 90%;
+        margin: -15px 0; /* Justerer toppmargen for mindre skjermer */
     }
 }
