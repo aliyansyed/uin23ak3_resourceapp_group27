@@ -1,3 +1,4 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
@@ -23,3 +24,34 @@ function App() {
 }
 
 export default App;
+
+
+//ROUTER//
+import Resources from './components/Resources';
+
+function App() {
+  return (
+    <Router>
+      <div className="App">
+        <Switch>
+          <Route path="/html">
+            <Resources category="html" />
+          </Route>
+          <Route path="/css">
+            <Resources category="css" />
+          </Route>
+          <Route path="/javascript">
+            <Resources category="javascript" />
+          </Route>
+          <Route path="/react">
+            <Resources category="react" />
+          </Route>
+          <Route path="/sanity">
+            <Resources category="sanity" />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
+  );
+}
+
