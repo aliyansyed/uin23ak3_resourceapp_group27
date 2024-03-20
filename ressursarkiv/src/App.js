@@ -27,8 +27,6 @@ function App() {
 export default App;
 
 
-//ROUTER//
-import Resources from './components/Resources';
 
 
 
