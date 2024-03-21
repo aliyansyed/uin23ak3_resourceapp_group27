@@ -8,6 +8,9 @@ import JavaScriptComp from './JavaScriptComp';
 import ReactComp from './ReactComp';
 import SanityComp from './SanityComp';
 
+
+
+
 function App() {
   return (
     <Router>
