@@ -26,11 +26,10 @@ justify-content: center;
 border-collapse: collapse;
   width: 100%;
   padding: 20px 0;
-  right: 140px;
+  left: 100;
   border-collapse: collapse;
   box-sizing: border-box;
 }
-
 
 .links {
   background-color: #2A324B;
