@@ -82,6 +82,7 @@ a, ul, li {
   #information {
     width: 90%;
     margin: -15px 0;
+    position: absolute;
   }
 }
 
