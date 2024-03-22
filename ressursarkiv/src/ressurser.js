@@ -1,4 +1,5 @@
- export const resources = [
+export default [
+   
     {
         category: "HTML",
         text: "HTML står for HyperText Markup Language, og er et strukturspråk som brukes for å lage strukturer til nettside- og applikasjonsgrensesnitt.",
@@ -93,5 +94,7 @@
             },
         ]
     },
-]
+
     
+
+];
