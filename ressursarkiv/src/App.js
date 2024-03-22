@@ -36,11 +36,6 @@ const App = () => {
           </>
         )}
       </div>
-      
-  
-      
-
-      <script src="js/ressurser.js"></script>
     </div>
   );
 };
