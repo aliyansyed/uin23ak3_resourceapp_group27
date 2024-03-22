@@ -11,7 +11,7 @@ const App = () => {
 
   return (
     <div>
-      <header>
+       <header>
         <nav>
           {resources.map(({ category }, index) => (
             <a key={index} href="#" onClick={() => handleClick(category)} className="links">
@@ -36,6 +36,9 @@ const App = () => {
           </>
         )}
       </div>
+      
+  
+      
 
       <script src="js/ressurser.js"></script>
     </div>
