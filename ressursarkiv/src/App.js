@@ -36,6 +36,7 @@ const App = () => {
           </>
         )}
       </div>
+      {/*Deler av denne koden er generert med bruk av ChatGPT, alt fra linje 5 til linje 22 er generert med ChatGPT*/}
     </div>
   );
 };
