@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import resources from './ressurser.js';
+import './css/main.css';
 
 const App = () => {
   const [selectedResource, setSelectedResource] = useState(null);
@@ -10,29 +11,33 @@ const App = () => {
 
   return (
     <div>
-      <nav>
-        <ul className="navigation">
+      <header>
+        <nav>
           {resources.map(({ category }, index) => (
-            <li key={index} onClick={() => handleClick(category)}>
+            <a key={index} href="#" onClick={() => handleClick(category)} className="links">
               {category}
-            </li>
+            </a>
           ))}
-        </ul>
-      </nav>
+        </nav>
+      </header>
 
-      {selectedResource && (
-        <div id="content">
-          <h1>{selectedResource.category}</h1>
-          <p>{selectedResource.text}</p>
-          <ul>
-            {selectedResource.sources.map((source, index) => (
-              <li key={index}>
-                <a href={source.url}>{source.title}</a>
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
+      <div id="information">
+        {selectedResource && (
+          <>
+            <h2>{selectedResource.category}</h2>
+            <p>{selectedResource.text}</p>
+            <ul>
+              {selectedResource.sources.map((source, index) => (
+                <li key={index}>
+                  <a href={source.url}>{source.title}</a>
+                </li>
+              ))}
+            </ul>
+          </>
+        )}
+      </div>
+
+      <script src="js/ressurser.js"></script>
     </div>
   );
 };
